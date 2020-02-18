@@ -10,19 +10,42 @@
 
 <body>
     <div id="welcome-container">
-
+        <div id="clock">
+            <h2>Welcome</h2>
+            <div id="time">
+                <div>
+                    <span id="hours">00</span><span>Hours</span>
+                </div>
+                <div>
+                    <span id="minutes">00</span><span>Minutes</span>
+                </div>
+                <div>
+                    <span id="seconds">00</span><span>Seconds</span>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="image-comparison-container">
-
+        <div id="slide1" class="slide"></div>
+        <div id="slide2" class="slide"></div>
     </div>
 
     <div id="magic-wheel-container">
-
+        <div class="wrapper">
+            <img id="marker" src="./images/marker.png" alt="wheel-marker">
+            <img id="wheel" src="./images/wheel.png" alt="wheel">
+            <button id="spin-wheel-button">Spin the wheel!</button>
+        </div>
     </div>
 
     <div id="layered-container">
-
+        <div class="wrapper">
+            <img src="./images/aliexpress.jpg" alt="layer" class="layer" data-speed='40'>
+            <img src="./images/aliexpress.jpg" alt="layer" class="layer" data-speed='30'>
+            <img src="./images/aliexpress.jpg" alt="layer" class="layer" data-speed='20'>
+            <img src="./images/aliexpress.jpg" alt="layer" class="layer" data-speed='10'>
+        </div>
     </div>
 
     <script src="./script.js"></script>
