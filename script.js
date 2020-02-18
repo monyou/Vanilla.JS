@@ -15,8 +15,9 @@ function clock() {
 var clockTickingInterval = setInterval(clock, 1000);
 
 // Comparison container
+var comparisonContainer = document.getElementById('image-comparison-container');
 var slide = document.getElementById('slide2');
-window.onmousemove = function (e) {
+comparisonContainer.onmousemove = function (e) {
     var x = e.clientX;
     slide.style.left = x + 'px';
 }
